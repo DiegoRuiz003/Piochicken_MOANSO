@@ -55,6 +55,7 @@
     <Compile Include="LogPlatoR.cs" />
     <Compile Include="logProveedor.cs" />
     <Compile Include="LogSolicitudCompra.cs" />
+    <Compile Include="LogTipoInsumo.cs" />
     <Compile Include="LogTipoInsumoR.cs" />
     <Compile Include="LogTipoPlato.cs" />
     <Compile Include="LogTipoPlatoR.cs" />

@@ -145,7 +145,7 @@ namespace Sotfware_PolleriaPioChicken
 
         private void btnTipoInsumo_Click(object sender, EventArgs e)
         {
-            AbrirForm(new MantenedorTipodeInsumoR());
+            AbrirForm(new MantenedorTipoInsumo());
         }
 
         private void btnPlanProduccion_Click(object sender, EventArgs e)

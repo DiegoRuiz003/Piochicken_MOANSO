@@ -56,6 +56,7 @@
     <Compile Include="DatPlatoR.cs" />
     <Compile Include="DatProveedor.cs" />
     <Compile Include="DatSolicitudCompra.cs" />
+    <Compile Include="DatTipoInsumo.cs" />
     <Compile Include="DatTipoInsumoR.cs" />
     <Compile Include="DatTipoPlato.cs" />
     <Compile Include="DatTipoPlatoR.cs" />

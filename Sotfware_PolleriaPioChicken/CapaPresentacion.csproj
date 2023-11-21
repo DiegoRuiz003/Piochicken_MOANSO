@@ -94,6 +94,12 @@
     <Compile Include="MantenedorTipodePlatoR.Designer.cs">
       <DependentUpon>MantenedorTipodePlatoR.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorTipoInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorTipoInsumo.Designer.cs">
+      <DependentUpon>MantenedorTipoInsumo.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorTipoPlato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTipodePlatoR.resx">
       <DependentUpon>MantenedorTipodePlatoR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipoInsumo.resx">
+      <DependentUpon>MantenedorTipoInsumo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorTipoPlato.resx">
       <DependentUpon>MantenedorTipoPlato.cs</DependentUpon>

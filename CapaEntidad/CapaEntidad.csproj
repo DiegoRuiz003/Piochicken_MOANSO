@@ -55,6 +55,7 @@
     <Compile Include="EntPlatoR.cs" />
     <Compile Include="entProveedor.cs" />
     <Compile Include="EntSolicitudCompra.cs" />
+    <Compile Include="EntTipoInsumo.cs" />
     <Compile Include="EntTipoInsumoR.cs" />
     <Compile Include="EntTipoPlato.cs" />
     <Compile Include="EntTipoPlatoR.cs" />
