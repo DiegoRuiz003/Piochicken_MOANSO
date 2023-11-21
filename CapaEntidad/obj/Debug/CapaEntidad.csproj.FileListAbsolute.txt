@@ -28,3 +28,9 @@ C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaEntidad\obj\
 C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\brays\OneDrive\Documentos\MOANSOEF2\Piochicken_MOANSO\CapaEntidad\obj\Debug\CapaEntidad.pdb

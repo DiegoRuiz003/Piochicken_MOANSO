@@ -45,6 +45,9 @@ namespace CapaDatos
                     pv.RazonSocial = dr["RazonSocial"].ToString();
                     pv.Telefono = dr["Telefono"].ToString();
                     pv.Estado = Convert.ToBoolean(dr["Estado"]);
+                    pv.Direccion = dr["Direccion"].ToString();
+                    pv.Correo = dr["Correo"].ToString();
+                    pv.RUC = dr["RUC"].ToString();
                     lista.Add(pv);
                 }
 
@@ -74,6 +77,9 @@ namespace CapaDatos
                 cmd.Parameters.AddWithValue("@razonsocial", pv.RazonSocial);
                 cmd.Parameters.AddWithValue("@telefono", pv.Telefono);
                 cmd.Parameters.AddWithValue("@estado", pv.Estado);
+                cmd.Parameters.AddWithValue("@direccion", pv.Direccion);
+                cmd.Parameters.AddWithValue("@correo", pv.Correo);
+                cmd.Parameters.AddWithValue("@ruc", pv.RUC);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -104,6 +110,9 @@ namespace CapaDatos
                 cmd.Parameters.AddWithValue("@razonsocial", pv.RazonSocial);
                 cmd.Parameters.AddWithValue("@telefono", pv.Telefono);
                 cmd.Parameters.AddWithValue("@estado", pv.Estado);
+                cmd.Parameters.AddWithValue("@direccion", pv.Direccion);
+                cmd.Parameters.AddWithValue("@correo", pv.Correo);
+                cmd.Parameters.AddWithValue("@ruc", pv.RUC);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

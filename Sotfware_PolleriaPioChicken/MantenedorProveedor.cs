@@ -30,8 +30,10 @@ namespace Sotfware_PolleriaPioChicken
             txtNombrePV.Text = "";
             txtRazonPV.Text = "";
             txtTelefonoPV.Text = "";
+            txtCorreoPV.Text = "";
+            txtDireccionPV.Text = "";
+            txtRUCPV.Text = "";
             //cbkEstadoCliente.Checked = false;
-
         }
 
         private void btnCrearPV_Click(object sender, EventArgs e)
@@ -40,10 +42,13 @@ namespace Sotfware_PolleriaPioChicken
             try
             {
                 entProveedor pro = new entProveedor();
-                pro.Nombre= txtNombrePV.Text.Trim();
-                pro.RazonSocial=txtRazonPV.Text.Trim();
-                pro.Telefono=txtTelefonoPV.Text.Trim();
-                pro.Estado = cbxEstadoPV.Checked;            
+                pro.Nombre = txtNombrePV.Text.Trim();
+                pro.RazonSocial = txtRazonPV.Text.Trim();
+                pro.Telefono = txtTelefonoPV.Text.Trim();
+                pro.Estado = cbxEstadoPV.Checked;
+                pro.Correo = txtCorreoPV.Text.Trim();
+                pro.Direccion = txtDireccionPV.Text.Trim();
+                pro.RUC = txtRUCPV.Text.Trim();
                 logProveedor.Instancia.InsertaProveedor(pro);
             }
             catch (Exception ex)
@@ -60,9 +65,12 @@ namespace Sotfware_PolleriaPioChicken
             DataGridViewRow filaActual = dgvProveedor.Rows[e.RowIndex]; //
             txtIdPV.Text = filaActual.Cells[0].Value.ToString();
             txtNombrePV.Text = filaActual.Cells[1].Value.ToString();
-            txtRazonPV.Text = filaActual.Cells[2].Value.ToString();           
+            txtRazonPV.Text = filaActual.Cells[2].Value.ToString();
             txtTelefonoPV.Text = filaActual.Cells[3].Value.ToString();
             cbxEstadoPV.Checked = Convert.ToBoolean(filaActual.Cells[4].Value);
+            txtCorreoPV.Text = filaActual.Cells[5].Value.ToString();
+            txtDireccionPV.Text = filaActual.Cells[6].Value.ToString();
+            txtRUCPV.Text = filaActual.Cells[7].Value.ToString();
         }
 
         private void btnModificarPV_Click(object sender, EventArgs e)
@@ -70,11 +78,14 @@ namespace Sotfware_PolleriaPioChicken
             try
             {
                 entProveedor pro = new entProveedor();
-                pro.Id=int.Parse(txtIdPV.Text.Trim());
+                pro.Id = int.Parse(txtIdPV.Text.Trim());
                 pro.Nombre = txtNombrePV.Text.Trim();
                 pro.RazonSocial = txtRazonPV.Text.Trim();
                 pro.Telefono = txtTelefonoPV.Text.Trim();
                 pro.Estado = cbxEstadoPV.Checked;
+                pro.Correo = txtCorreoPV.Text.Trim();
+                pro.Direccion = txtDireccionPV.Text.Trim();
+                pro.RUC = txtRUCPV.Text.Trim();
                 logProveedor.Instancia.EditarProveedor(pro);
             }
             catch (Exception ex)

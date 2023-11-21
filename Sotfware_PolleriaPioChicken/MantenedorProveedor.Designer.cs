@@ -48,6 +48,12 @@
             this.btnEliminarPV = new System.Windows.Forms.Button();
             this.btnCrearPV = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtCorreoPV = new System.Windows.Forms.TextBox();
+            this.txtDireccionPV = new System.Windows.Forms.TextBox();
+            this.txtRUCPV = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -78,7 +84,7 @@
             this.dgvProveedor.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvProveedor.Location = new System.Drawing.Point(12, 12);
             this.dgvProveedor.Name = "dgvProveedor";
-            this.dgvProveedor.Size = new System.Drawing.Size(714, 182);
+            this.dgvProveedor.Size = new System.Drawing.Size(855, 182);
             this.dgvProveedor.TabIndex = 7;
             this.dgvProveedor.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProveedor_CellClick);
             // 
@@ -86,6 +92,12 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox1.Controls.Add(this.txtRUCPV);
+            this.groupBox1.Controls.Add(this.txtDireccionPV);
+            this.groupBox1.Controls.Add(this.txtCorreoPV);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.cbxEstadoPV);
             this.groupBox1.Controls.Add(this.txtTelefonoPV);
             this.groupBox1.Controls.Add(this.txtIdPV);
@@ -98,7 +110,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 200);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(502, 297);
+            this.groupBox1.Size = new System.Drawing.Size(637, 297);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS DEL PROVEEDOR";
@@ -106,7 +118,7 @@
             // cbxEstadoPV
             // 
             this.cbxEstadoPV.AutoSize = true;
-            this.cbxEstadoPV.Location = new System.Drawing.Point(30, 232);
+            this.cbxEstadoPV.Location = new System.Drawing.Point(413, 29);
             this.cbxEstadoPV.Name = "cbxEstadoPV";
             this.cbxEstadoPV.Size = new System.Drawing.Size(166, 18);
             this.cbxEstadoPV.TabIndex = 12;
@@ -116,7 +128,7 @@
             // txtTelefonoPV
             // 
             this.txtTelefonoPV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefonoPV.Location = new System.Drawing.Point(133, 180);
+            this.txtTelefonoPV.Location = new System.Drawing.Point(133, 135);
             this.txtTelefonoPV.Name = "txtTelefonoPV";
             this.txtTelefonoPV.Size = new System.Drawing.Size(234, 20);
             this.txtTelefonoPV.TabIndex = 11;
@@ -143,7 +155,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 180);
+            this.label3.Location = new System.Drawing.Point(17, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 14);
             this.label3.TabIndex = 6;
@@ -152,7 +164,7 @@
             // txtRazonPV
             // 
             this.txtRazonPV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRazonPV.Location = new System.Drawing.Point(133, 125);
+            this.txtRazonPV.Location = new System.Drawing.Point(133, 93);
             this.txtRazonPV.Name = "txtRazonPV";
             this.txtRazonPV.Size = new System.Drawing.Size(234, 20);
             this.txtRazonPV.TabIndex = 5;
@@ -161,7 +173,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 125);
+            this.label1.Location = new System.Drawing.Point(17, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 14);
             this.label1.TabIndex = 4;
@@ -170,7 +182,7 @@
             // txtNombrePV
             // 
             this.txtNombrePV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombrePV.Location = new System.Drawing.Point(133, 71);
+            this.txtNombrePV.Location = new System.Drawing.Point(133, 64);
             this.txtNombrePV.Name = "txtNombrePV";
             this.txtNombrePV.Size = new System.Drawing.Size(234, 20);
             this.txtNombrePV.TabIndex = 3;
@@ -179,7 +191,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 74);
+            this.label2.Location = new System.Drawing.Point(17, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 14);
             this.label2.TabIndex = 0;
@@ -192,9 +204,9 @@
             this.groupBox2.Controls.Add(this.btnEliminarPV);
             this.groupBox2.Controls.Add(this.btnCrearPV);
             this.groupBox2.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(520, 200);
+            this.groupBox2.Location = new System.Drawing.Point(655, 200);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(206, 297);
+            this.groupBox2.Size = new System.Drawing.Size(212, 297);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "OPERACIONES";
@@ -255,6 +267,60 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(17, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(45, 14);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Correo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(17, 214);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(61, 14);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Direccion";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(17, 248);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(30, 14);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "RUC";
+            // 
+            // txtCorreoPV
+            // 
+            this.txtCorreoPV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoPV.Location = new System.Drawing.Point(133, 172);
+            this.txtCorreoPV.Name = "txtCorreoPV";
+            this.txtCorreoPV.Size = new System.Drawing.Size(234, 20);
+            this.txtCorreoPV.TabIndex = 16;
+            // 
+            // txtDireccionPV
+            // 
+            this.txtDireccionPV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccionPV.Location = new System.Drawing.Point(133, 211);
+            this.txtDireccionPV.Name = "txtDireccionPV";
+            this.txtDireccionPV.Size = new System.Drawing.Size(234, 20);
+            this.txtDireccionPV.TabIndex = 17;
+            // 
+            // txtRUCPV
+            // 
+            this.txtRUCPV.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRUCPV.Location = new System.Drawing.Point(133, 248);
+            this.txtRUCPV.Name = "txtRUCPV";
+            this.txtRUCPV.Size = new System.Drawing.Size(234, 20);
+            this.txtRUCPV.TabIndex = 18;
+            // 
             // MantenedorProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -295,5 +361,11 @@
         private System.Windows.Forms.Button btnCrearPV;
         private System.Windows.Forms.CheckBox cbxEstadoPV;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtRUCPV;
+        private System.Windows.Forms.TextBox txtDireccionPV;
+        private System.Windows.Forms.TextBox txtCorreoPV;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }
