@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2CA98DDD-CF60-473B-B4EF-33AFA012D799}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sotfware_PolleriaPioChicken</RootNamespace>
+    <AssemblyName>Sotfware_PolleriaPioChicken</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MantenedorCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorCliente.Designer.cs">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorInsumo.Designer.cs">
+      <DependentUpon>MantenedorInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorMetododePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorMetododePago.Designer.cs">
+      <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorPlato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorPlato.Designer.cs">
+      <DependentUpon>MantenedorPlato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorProveedor.Designer.cs">
+      <DependentUpon>MantenedorProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorTipodeInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorTipodeInsumo.Designer.cs">
+      <DependentUpon>MantenedorTipodeInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorTipodePlato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorTipodePlato.Designer.cs">
+      <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PolleriaPioChicken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PolleriaPioChicken.Designer.cs">
+      <DependentUpon>PolleriaPioChicken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaNotadeIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaNotadeIngreso.Designer.cs">
+      <DependentUpon>RealizaNotadeIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaNotadeSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaNotadeSalida.Designer.cs">
+      <DependentUpon>RealizaNotadeSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaOrdendeProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaOrdendeProduccion.Designer.cs">
+      <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaPago.Designer.cs">
+      <DependentUpon>RealizaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaPedido.Designer.cs">
+      <DependentUpon>RealizaPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaPlandeProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaPlandeProduccion.Designer.cs">
+      <DependentUpon>RealizaPlandeProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaSolicitudCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaSolicitudCompra.Designer.cs">
+      <DependentUpon>RealizaSolicitudCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealizaNotadeVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealizaNotadeVenta.Designer.cs">
+      <DependentUpon>RealizaNotadeVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MantenedorCliente.resx">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorInsumo.resx">
+      <DependentUpon>MantenedorInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorMetododePago.resx">
+      <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorPlato.resx">
+      <DependentUpon>MantenedorPlato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorProveedor.resx">
+      <DependentUpon>MantenedorProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipodeInsumo.resx">
+      <DependentUpon>MantenedorTipodeInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipodePlato.resx">
+      <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PolleriaPioChicken.resx">
+      <DependentUpon>PolleriaPioChicken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RealizaNotadeIngreso.resx">
+      <DependentUpon>RealizaNotadeIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaNotadeSalida.resx">
+      <DependentUpon>RealizaNotadeSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaOrdendeProduccion.resx">
+      <DependentUpon>RealizaOrdendeProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaPago.resx">
+      <DependentUpon>RealizaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaPedido.resx">
+      <DependentUpon>RealizaPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaPlandeProduccion.resx">
+      <DependentUpon>RealizaPlandeProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaSolicitudCompra.resx">
+      <DependentUpon>RealizaSolicitudCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealizaNotadeVenta.resx">
+      <DependentUpon>RealizaNotadeVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{efee48e8-964a-4e6b-ac8e-fc8dee28679d}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{64dd65ac-3116-4e5b-93e7-b8cbb8234916}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

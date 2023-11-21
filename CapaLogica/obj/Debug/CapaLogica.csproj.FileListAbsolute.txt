@@ -1,0 +1,55 @@
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\DIEGO-CODIGO\PolleriaPioChicken\Proyecto_PollerioPioChicken\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.pdb

@@ -1,0 +1,24 @@
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\MOANSO\MOANSO T3\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\ADMINOF\Desktop\T3-MOANSO\T3-MOANSO\INTERFACES-PIOCHOCKEN\INTERFACES-PIOCHOCKEN\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\Proyecto-Piochcken\Proyecto_PollerioPioChicken\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaEntidad\obj\Debug\CapaEntidad.pdb
