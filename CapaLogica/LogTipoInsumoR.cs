@@ -1,6 +1,6 @@
 ﻿namespace CapaLogica
 {
-    internal class LogTipoInsumo
+    internal class LogTipoInsumoR
     {
     }
 }

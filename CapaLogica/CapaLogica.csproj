@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="logCliente.cs" />
     <Compile Include="LogInsumo.cs" />
+    <Compile Include="LogInsumoR.cs" />
     <Compile Include="LogMetodoPago.cs" />
     <Compile Include="LogNotaIngreso.cs" />
     <Compile Include="LogNotaSalida.cs" />
@@ -51,11 +52,12 @@
     <Compile Include="logPago.cs" />
     <Compile Include="LogPedido.cs" />
     <Compile Include="LogPlanProduccion.cs" />
-    <Compile Include="LogPlato.cs" />
+    <Compile Include="LogPlatoR.cs" />
     <Compile Include="logProveedor.cs" />
     <Compile Include="LogSolicitudCompra.cs" />
-    <Compile Include="LogTipoInsumo.cs" />
+    <Compile Include="LogTipoInsumoR.cs" />
     <Compile Include="LogTipoPlato.cs" />
+    <Compile Include="LogTipoPlatoR.cs" />
     <Compile Include="LogNotaVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -58,17 +58,23 @@
     <Compile Include="MantenedorInsumo.Designer.cs">
       <DependentUpon>MantenedorInsumo.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorInsumoR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorInsumoR.Designer.cs">
+      <DependentUpon>MantenedorInsumoR.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorMetododePago.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MantenedorMetododePago.Designer.cs">
       <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorPlato.cs">
+    <Compile Include="MantenedorPlatoR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorPlato.Designer.cs">
-      <DependentUpon>MantenedorPlato.cs</DependentUpon>
+    <Compile Include="MantenedorPlatoR.Designer.cs">
+      <DependentUpon>MantenedorPlatoR.cs</DependentUpon>
     </Compile>
     <Compile Include="MantenedorProveedor.cs">
       <SubType>Form</SubType>
@@ -76,17 +82,23 @@
     <Compile Include="MantenedorProveedor.Designer.cs">
       <DependentUpon>MantenedorProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorTipodeInsumo.cs">
+    <Compile Include="MantenedorTipodeInsumoR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorTipodeInsumo.Designer.cs">
-      <DependentUpon>MantenedorTipodeInsumo.cs</DependentUpon>
+    <Compile Include="MantenedorTipodeInsumoR.Designer.cs">
+      <DependentUpon>MantenedorTipodeInsumoR.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenedorTipodePlato.cs">
+    <Compile Include="MantenedorTipodePlatoR.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenedorTipodePlato.Designer.cs">
-      <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
+    <Compile Include="MantenedorTipodePlatoR.Designer.cs">
+      <DependentUpon>MantenedorTipodePlatoR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorTipoPlato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorTipoPlato.Designer.cs">
+      <DependentUpon>MantenedorTipoPlato.cs</DependentUpon>
     </Compile>
     <Compile Include="PolleriaPioChicken.cs">
       <SubType>Form</SubType>
@@ -150,20 +162,26 @@
     <EmbeddedResource Include="MantenedorInsumo.resx">
       <DependentUpon>MantenedorInsumo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorInsumoR.resx">
+      <DependentUpon>MantenedorInsumoR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MantenedorMetododePago.resx">
       <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenedorPlato.resx">
-      <DependentUpon>MantenedorPlato.cs</DependentUpon>
+    <EmbeddedResource Include="MantenedorPlatoR.resx">
+      <DependentUpon>MantenedorPlatoR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorProveedor.resx">
       <DependentUpon>MantenedorProveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenedorTipodeInsumo.resx">
-      <DependentUpon>MantenedorTipodeInsumo.cs</DependentUpon>
+    <EmbeddedResource Include="MantenedorTipodeInsumoR.resx">
+      <DependentUpon>MantenedorTipodeInsumoR.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MantenedorTipodePlato.resx">
-      <DependentUpon>MantenedorTipodePlato.cs</DependentUpon>
+    <EmbeddedResource Include="MantenedorTipodePlatoR.resx">
+      <DependentUpon>MantenedorTipodePlatoR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorTipoPlato.resx">
+      <DependentUpon>MantenedorTipoPlato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PolleriaPioChicken.resx">
       <DependentUpon>PolleriaPioChicken.cs</DependentUpon>

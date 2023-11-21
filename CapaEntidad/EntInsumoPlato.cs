@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    public class EntInsumo
+    public class EntInsumoPlato
     {
-        public String id { get; set; }
-        public String nombre { get; set; }
-        public String idtipoinsumo { get; set; }
-        public int cantidad { get; set; }
+        public string idInsumo { get; set; }
+        public string idPlato { get; set; }
         public bool estado { get; set; }
 
+        public EntInsumoPlato() { }
     }
 }

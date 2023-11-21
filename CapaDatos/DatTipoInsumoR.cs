@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaEntidad
+namespace CapaDatos
 {
-    internal class EntTipoInsumo
+    public class DatTipoInsumoR
     {
+       
     }
 }

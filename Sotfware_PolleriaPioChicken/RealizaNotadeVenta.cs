@@ -50,7 +50,7 @@ namespace Sotfware_PolleriaPioChicken
         }
         private void llenarComboTipoPlato()
         {
-            cbxTipoPlatoBuscar.DataSource = LogTipoPlato.Instancia.ListarTipoPlato();
+            cbxTipoPlatoBuscar.DataSource = LogTipoPlatoR.Instancia.ListarTipoPlato();
             cbxTipoPlatoBuscar.DisplayMember = "Nombre";
             cbxTipoPlatoBuscar.ValueMember = "Id";
         }
@@ -59,7 +59,7 @@ namespace Sotfware_PolleriaPioChicken
         {
 
             int idtipoplato = (int)cbxTipoPlatoBuscar.SelectedValue;
-            cbxPlatoBuscar.DataSource = LogPlato.Instancia.ListarPlato_Tipo(idtipoplato);
+            cbxPlatoBuscar.DataSource = LogPlatoR.Instancia.ListarPlato_Tipo(idtipoplato);
             cbxPlatoBuscar.DisplayMember = "Nombre";
             cbxPlatoBuscar.ValueMember = "Id";
         }
@@ -99,7 +99,7 @@ namespace Sotfware_PolleriaPioChicken
             cbxPlatoBuscar.Focus();
 
             idplato = cbxPlatoBuscar.SelectedValue.ToString(); // se obtiene el valor de una celda 
-            EntPlato p = LogPlato.Instancia.BuscarPlato(idplato);
+            EntPlatoR p = LogPlatoR.Instancia.BuscarPlato(idplato);
 
             if (p != null && (p.Estado = true))
             {
@@ -114,7 +114,7 @@ namespace Sotfware_PolleriaPioChicken
         private void btnAgregarDetV_Click(object sender, EventArgs e)
         {
             entDetNotaVenta dnv = new entDetNotaVenta();
-            EntPlato p = new EntPlato();
+            EntPlatoR p = new EntPlatoR();
 
             if ((this.txtNombreCLB.Text.Trim() != "") && (cbxPlatoBuscar.SelectedIndex != null) && (txtCantidadV.Text.Trim() != ""))
             {
@@ -154,7 +154,7 @@ namespace Sotfware_PolleriaPioChicken
                 EntNotaVenta nv = new EntNotaVenta();
                 //entDetPedido dPed = new entDetPedido();
                 entCliente c = new entCliente();
-                EntPlato p = new EntPlato();
+                EntPlatoR p = new EntPlatoR();
 
                 nv.Fecha = Convert.ToDateTime(dateNotaVenta.Value);
                 nv.Total = Convert.ToDecimal(txtTotalV.Text);
@@ -203,7 +203,7 @@ namespace Sotfware_PolleriaPioChicken
             foreach (DataGridViewRow Fila in dgvDetalleVenta.Rows)
             {
                 dnv.IdNotaventa =  cod;
-                EntPlato p = new EntPlato();
+                EntPlatoR p = new EntPlatoR();
 
 
                 p.Id = Fila.Cells[0].Value.ToString();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sotfware_PolleriaPioChicken
 {
-    public partial class MantenedorPlato : Form
+    public partial class MantenedorTipodePlatoR : Form
     {
-        public MantenedorPlato()
+        public MantenedorTipodePlatoR()
         {
             InitializeComponent();
         }

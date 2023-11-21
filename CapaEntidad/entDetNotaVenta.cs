@@ -10,7 +10,7 @@ namespace CapaEntidad
     {
         public int Id { get; set; }
         public int IdNotaventa { get; set; }
-        public EntPlato IdPlato { get; set;}
+        public EntPlatoR IdPlato { get; set;}
         public int Cantidad { get; set; }
         public Decimal Precio { get; set; }
         public Decimal SubTotal { get; set; }

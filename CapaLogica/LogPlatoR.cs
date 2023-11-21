@@ -5,41 +5,41 @@ using System.Collections.Generic;
 
 namespace CapaLogica
 {
-    public class LogPlato
+    public class LogPlatoR
     {
         #region sigleton
         //Patron Singleton
         // Variable estática para la instancia
-        private static readonly LogPlato _instancia = new LogPlato();
+        private static readonly LogPlatoR _instancia = new LogPlatoR();
         //privado para evitar la instanciación directa
-        public static LogPlato Instancia
+        public static LogPlatoR Instancia
         {
             get
             {
-                return LogPlato._instancia;
+                return LogPlatoR._instancia;
             }
         }
         #endregion singleton
         #region metodos
 
         //LISTAR
-        public List<EntPlato> ListarPlato()
+        public List<EntPlatoR> ListarPlato()
         {
-            return DatPlato.Instancia.ListarPlato();
+            return DatPlatoR.Instancia.ListarPlato();
         }
 
         //LISTAR PLATO_TIPO
-        public List<EntPlato> ListarPlato_Tipo(int idtipoplato)
+        public List<EntPlatoR> ListarPlato_Tipo(int idtipoplato)
         {
-            return DatPlato.Instancia.ListarPlato_Tipo(idtipoplato);
+            return DatPlatoR.Instancia.ListarPlato_Tipo(idtipoplato);
         }
 
         //BUSCAR
-        public EntPlato BuscarPlato(string idplato)
+        public EntPlatoR BuscarPlato(string idplato)
         {
             try
             {
-                return DatPlato.Instancia.BuscarPlato(idplato);
+                return DatPlatoR.Instancia.BuscarPlato(idplato);
             }
             catch (Exception e) { throw e; }
         }

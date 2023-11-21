@@ -53,3 +53,14 @@ C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLo
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaLogica\obj\Debug\CapaLogica.pdb

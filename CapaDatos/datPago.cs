@@ -39,7 +39,7 @@ namespace CapaDatos
                 while (dr.Read())
                 {
                     entDetNotaVenta dventa = new entDetNotaVenta();
-                    EntPlato plato = new EntPlato();
+                    EntPlatoR plato = new EntPlatoR();
 
 
                     dventa.IdNotaventa = Convert.ToInt32(dr["IdNotaVenta"]);

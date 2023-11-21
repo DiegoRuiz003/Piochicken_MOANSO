@@ -145,7 +145,7 @@ namespace Sotfware_PolleriaPioChicken
 
         private void btnTipoInsumo_Click(object sender, EventArgs e)
         {
-            AbrirForm(new MantenedorTipodeInsumo());
+            AbrirForm(new MantenedorTipodeInsumoR());
         }
 
         private void btnPlanProduccion_Click(object sender, EventArgs e)
@@ -165,12 +165,12 @@ namespace Sotfware_PolleriaPioChicken
 
         private void btnPlato_Click(object sender, EventArgs e)
         {
-            AbrirForm(new MantenedorPlato());
+            AbrirForm(new MantenedorPlatoR());
         }
 
         private void btnTipoPlato_Click(object sender, EventArgs e)
         {
-            AbrirForm(new MantenedorTipodePlato());
+            AbrirForm(new MantenedorTipoPlato());
         }
 
         private void btnNotaVenta_Click(object sender, EventArgs e)

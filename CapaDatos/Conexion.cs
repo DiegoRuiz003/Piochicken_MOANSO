@@ -17,7 +17,7 @@ namespace CapaDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=.;Initial Catalog=BD_VENTA;Integrated Security=True";
+            cn.ConnectionString = "Data Source=.;Initial Catalog=BDMantenedorPlato; User ID = sa; Password = longitudminima8;";
             return cn;
 
         }

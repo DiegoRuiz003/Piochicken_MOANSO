@@ -44,6 +44,7 @@
     <Compile Include="entCliente.cs" />
     <Compile Include="entDetNotaVenta.cs" />
     <Compile Include="EntInsumo.cs" />
+    <Compile Include="EntInsumoR.cs" />
     <Compile Include="EntMetodoPago.cs" />
     <Compile Include="EntNotaIngreso.cs" />
     <Compile Include="EntNotaSalida.cs" />
@@ -51,11 +52,12 @@
     <Compile Include="entPago.cs" />
     <Compile Include="EntPedido.cs" />
     <Compile Include="EntPlanProduccion.cs" />
-    <Compile Include="EntPlato.cs" />
+    <Compile Include="EntPlatoR.cs" />
     <Compile Include="entProveedor.cs" />
     <Compile Include="EntSolicitudCompra.cs" />
-    <Compile Include="EntTipoInsumo.cs" />
+    <Compile Include="EntTipoInsumoR.cs" />
     <Compile Include="EntTipoPlato.cs" />
+    <Compile Include="EntTipoPlatoR.cs" />
     <Compile Include="EntNotaVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

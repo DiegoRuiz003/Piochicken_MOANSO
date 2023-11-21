@@ -8,24 +8,24 @@ using System.Data.SqlClient;
 using System.Data;
 namespace CapaDatos
 {
-     public class DatPlato
+     public class DatPlatoR
      {
         #region sigleton    
-        private static readonly DatPlato _instancia = new DatPlato();
-        public static DatPlato Instancia
+        private static readonly DatPlatoR _instancia = new DatPlatoR();
+        public static DatPlatoR Instancia
         {
             get
             {
-                return DatPlato._instancia;
+                return DatPlatoR._instancia;
             }
         }
         #endregion singleton
         #region metodos
         //LISTADO
-        public List<EntPlato> ListarPlato()
+        public List<EntPlatoR> ListarPlato()
         {
             SqlCommand cmd = null;
-            List<EntPlato> lista = new List<EntPlato>();
+            List<EntPlatoR> lista = new List<EntPlatoR>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar(); //singleton
@@ -35,9 +35,9 @@ namespace CapaDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    EntPlato p = new EntPlato();
+                    EntPlatoR p = new EntPlatoR();
                      //---------------------------------------//
-                    EntTipoPlato tp = new EntTipoPlato();
+                    EntTipoPlatoR tp = new EntTipoPlatoR();
 
                     p.Id = dr["Id"].ToString();
                     p.Nombre = dr["Nombre"].ToString();
@@ -64,10 +64,10 @@ namespace CapaDatos
         }
 
         //LISTAR PLATO_TIPO
-        public List<EntPlato> ListarPlato_Tipo(int idtipoplato)
+        public List<EntPlatoR> ListarPlato_Tipo(int idtipoplato)
         {
             SqlCommand cmd = null;
-            List<EntPlato> lista = new List<EntPlato>();
+            List<EntPlatoR> lista = new List<EntPlatoR>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -78,7 +78,7 @@ namespace CapaDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    EntPlato p = new EntPlato();
+                    EntPlatoR p = new EntPlatoR();
                     //---------------------------------------//
                     //EntTipoPlato tp = new EntTipoPlato();
 
@@ -104,11 +104,11 @@ namespace CapaDatos
             return lista;
         }
 
-        public EntPlato BuscarPlato(string idplato)
+        public EntPlatoR BuscarPlato(string idplato)
         {
             SqlCommand cmd = null;
-            EntPlato p = new EntPlato();
-            EntTipoPlato tp = new EntTipoPlato();
+            EntPlatoR p = new EntPlatoR();
+            EntTipoPlatoR tp = new EntTipoPlatoR();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();

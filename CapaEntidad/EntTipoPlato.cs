@@ -8,8 +8,11 @@ namespace CapaEntidad
 {
     public class EntTipoPlato
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public Boolean Estado { get; set; }
+        public String id { get; set; }
+        public String nombre { get; set; }
+        public bool estado { get; set; }
+
+        public EntTipoPlato() { }
+
     }
 }

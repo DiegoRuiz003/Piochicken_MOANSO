@@ -1,6 +1,6 @@
 ﻿namespace Sotfware_PolleriaPioChicken
 {
-    partial class MantenedorPlato
+    partial class MantenedorPlatoR
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorPlato));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantenedorPlatoR));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();

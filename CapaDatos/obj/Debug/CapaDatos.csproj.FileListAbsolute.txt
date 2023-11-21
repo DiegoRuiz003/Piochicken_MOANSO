@@ -43,3 +43,12 @@ C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaDa
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\diego\OneDrive\Escritorio\T4_MM\Proyecto_PollerioPioChicken-main\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\ADMINOF\Desktop\Git Oficial Ahora Si\Piochicken_MOANSO\CapaDatos\obj\Debug\CapaDatos.pdb
