@@ -70,6 +70,12 @@
     <Compile Include="MantenedorMetododePago.Designer.cs">
       <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorPlato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorPlato.Designer.cs">
+      <DependentUpon>MantenedorPlato.cs</DependentUpon>
+    </Compile>
     <Compile Include="MantenedorPlatoR.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorMetododePago.resx">
       <DependentUpon>MantenedorMetododePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorPlato.resx">
+      <DependentUpon>MantenedorPlato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenedorPlatoR.resx">
       <DependentUpon>MantenedorPlatoR.cs</DependentUpon>

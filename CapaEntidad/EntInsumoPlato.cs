@@ -13,5 +13,6 @@ namespace CapaEntidad
         public bool estado { get; set; }
 
         public EntInsumoPlato() { }
+
     }
 }

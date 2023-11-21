@@ -165,7 +165,7 @@ namespace Sotfware_PolleriaPioChicken
 
         private void btnPlato_Click(object sender, EventArgs e)
         {
-            AbrirForm(new MantenedorPlatoR());
+            AbrirForm(new MantenedorPlato());
         }
 
         private void btnTipoPlato_Click(object sender, EventArgs e)
